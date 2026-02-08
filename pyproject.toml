@@ -1,0 +1,15 @@
+[project]
+name = "sarcocoach"
+version = "0.1.0"
+description = "Senior sarcopenia home-rehab AI coach prototype"
+requires-python = ">=3.11"
+readme = "README.md"
+
+dependencies = [
+  "fastapi>=0.115",
+  "pydantic>=2.6",
+  "uvicorn[standard]>=0.30",
+]
+
+[tool.black]
+line-length = 88
